@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <div class="card rating-state">
+      <div class="rating-state__icon"></div>
+      <h1 class="rating-state__title">How did we do?</h1>
+      <p class="rating-state__text">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+      <ul class="rating-state__buttons">
+        <li>
+          <button type="button" class="rating-state__button-item">1</button>
+        </li>
+        <li>
+          <button type="button" class="rating-state__button-item">2</button>
+        </li>
+        <li>
+          <button type="button" class="rating-state__button-item">3</button>
+        </li>
+        <li>
+          <button type="button" class="rating-state__button-item">4</button>
+        </li>
+        <li>
+          <button type="button" class="rating-state__button-item">5</button>
+        </li>
+      </ul>
+      <button type="submit" class="rating-state__button">Submit</button>
+      <!-- Rating state end -->
+    </div>
+    <div class="card thank-you thank-you_display">
+      <!-- Thank you state start -->
+      <img
+        class="thank-you__illustrate"
+        src="./images/illustration-thank-you.svg"
+        alt="illustration thank you"
+      />
+      <p class="thank-you__rate">
+        You selected<span class="thank-you__rate-number"></span> out of 5
+      </p>
+      <p class="thank-you__title">Thank you!</p>
+      <p class="thank-you__text">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don't hesitate to get in touch!
+      </p>
+      <!-- Thank you state end -->
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ori Hemo</a>.
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
